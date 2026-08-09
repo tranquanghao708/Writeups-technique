@@ -32,3 +32,42 @@ trình bày rõ và khoảng cách với các mục con của mục chính, ví 
 ```
 
 tac dụng của nó sẽ giúp đọc giả phân biệt phần nào là phần con thuộc phần cha, tránh soi từng số gây tốn time và mỏi mắt. Quan trọng ko kém là đính kèm link redirect vào trong mục lục luôn, họ ấn là dịch tới chính xác cái họ cần, khỏi phải lướt tay tìm kiếm tốn thời gian
+
+---
+
+## 4.Nghệ thuật reading checkpoint
+
+Writeup tốt ko chỉ cho đọc giả biết ranh giới và phân biệt của tầng thông tin vật lý, nó cần phải cho đọc giả biết ranh giới và nhìn thấu nhận thức của mình hiện tại với kiến thức. Một reading checkpoint có thể giúp đạt sự truyền tải thông tin tốt hơn vì nó cho biết đọc giả cần chuẩn bị những gì trước khi đi qua vấn đề này và học hỏi. Ví dụ :
+
+```
+> **Reading checkpoint**
+>
+> Đến đây, bạn cần hiểu:
+>
+> - Actual exponent là gì
+> - Exponent field là gì
+> - Bias dùng để làm gì
+> - Chuẩn hóa số thực ra sao
+> - Sign là gì
+> - số âm, dương actual exponent của vị trí dấu chấm nhị phân
+>
+> Nếu đã rõ thì có thể tiếp tục.
+```
+
+thêm vào trước chủ đề hay ở chỗ người đọc có thể nhìn thấy trước khi đi vào phần introduce của chương kế tiếp.
+
+## 5.Nghệ thuật phép toán học
+
+Dùng các cú pháp phân số, căn bậc, nhân chia, lũy thừa như `$$\large2^{2} = 4` góp phần làm cho tính dễ đọc thăng cao và chuyên nghiệp hơn. Cú pháp toán học phải **TO, Rõ ràng** để thấy, ở đây mình khuyến nghị dùng `\large hay \Large (Muốn to hơn nữa)` trước cú pháp như trên. Ngoài ra, các mũi tên như `\xrightarrow{\text{thông tin 1}}` hay việc đóng khung bên dưới từng biểu thức như `\underbrace{1\times2^{-126}}*{\text{thông tin 2}}` giúp góp thêm không gian nêu rõ các ý nghĩa của biểu thức và trực quan hơn, góp phần giúp mức độ hiểu biết cao hơn và sâu hơn 
+
+ví dụ với `\underbrace{1\times2^{-126}}*{\text{thông tin 2}}` thì sẽ ra thế này :
+
+$$\large
+\underbrace{1\times2^{-126}}*{\text{thông tin 2}}
+$$
+
+hay với `\xrightarrow{\text{thông tin 1}}` :
+
+$$\large
+\xrightarrow{\text{thông tin 1}}
+$$
