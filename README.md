@@ -58,9 +58,9 @@ thêm vào trước chủ đề hay ở chỗ người đọc có thể nhìn th
 
 ## 5.Nghệ thuật phép toán học
 
-Dùng các cú pháp phân số, căn bậc, nhân chia, lũy thừa như `$$\large2^{2} = 4` góp phần làm cho tính dễ đọc thăng cao và chuyên nghiệp hơn. Cú pháp toán học phải **TO, Rõ ràng** để thấy, ở đây mình khuyến nghị dùng `\large hay \Large (Muốn to hơn nữa)` trước cú pháp như trên. Ngoài ra, các mũi tên như `2+1 \xrightarrow{\text{thông tin 1}} 3` hay việc đóng khung bên dưới từng biểu thức như `\underbrace{1\times2^{-126}}*{\text{thông tin 2}}` giúp góp thêm không gian nêu rõ các ý nghĩa của biểu thức và trực quan hơn, góp phần giúp mức độ hiểu biết cao hơn và sâu hơn 
+Dùng các cú pháp phân số, căn bậc, nhân chia, lũy thừa như `$$\large2^{2} = 4` góp phần làm cho tính dễ đọc thăng cao và chuyên nghiệp hơn. Cú pháp toán học phải **TO, Rõ ràng** để thấy, ở đây mình khuyến nghị dùng `\large hay \Large (Muốn to hơn nữa)` trước cú pháp như trên. Ngoài ra, các mũi tên như `2+1 \xrightarrow{\text{thông tin 1}} 3` hay việc đóng khung bên dưới từng biểu thức như `\underbrace{1\times2^{2}}*{\text{thông tin 2}}=\underbrace{1\times2\times2}*{\text{thông tin 2}}` giúp góp thêm không gian nêu rõ các ý nghĩa của biểu thức và trực quan hơn, góp phần giúp mức độ hiểu biết cao hơn và sâu hơn 
 
-ví dụ với `\underbrace{1\times2^{-126}}*{\text{thông tin 2}}` thì sẽ ra thế này :
+ví dụ với `\underbrace{1\times2^{2}}*{\text{thông tin 2}}=\underbrace{1\times2\times2}*{\text{thông tin 2}}` thì sẽ ra thế này :
 
 $$\large
 \underbrace{1\times2^{2}}*{\text{thông tin 2}}=
