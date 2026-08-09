@@ -63,8 +63,8 @@ Dùng các cú pháp phân số, căn bậc, nhân chia, lũy thừa như `$$\la
 ví dụ với `\underbrace{1\times2^{-126}}*{\text{thông tin 2}}` thì sẽ ra thế này :
 
 $$\large
-\underbrace{1\times2^{-126}}*{\text{thông tin 2}}
-\underbrace{1\times2^{-126}}*{\text{thông tin 2}}
+\underbrace{1\times2^{2}}*{\text{thông tin 2}}=
+\underbrace{1\times2\times2}*{\text{thông tin 2}}
 $$
 
 hay với `\xrightarrow{\text{thông tin 1}}` :
