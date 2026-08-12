@@ -72,3 +72,49 @@ hay với `\xrightarrow{\text{thông tin 1}}` :
 $$\large
 2 + 1 \xrightarrow{\text{thông tin 1}} 3
 $$
+
+## 6.Nghệ thuật phân bổ tiêu đề theo từng giai cấp
+
+việc phân bổ tiêu đề ít góp phần gì nhiều, nhưng việc nó làm thay đổi kích cỡ cho các tiêu đề cha và con sẽ khiến đọc giả có mạch tự nhiên hơn và sẽ cảm nhận được đây là tiêu đề con theo kích cỡ của chữ, thay vì phải kéo lên mục lục xem lại. Dùng các `#` cho tiêu đề chính, thường giới thiệu ví dụ :
+
+```
+# Writeup : chủ đề writeup
+```
+
+dùng `##` cho tiêu đề cha ví dụ :
+
+```
+## 1.Tổng quan về số thực chuẩn IEEE754
+```
+
+dùng `###` cho tiêu đề con ví dụ :
+
+```
+### 1.1.IEEE754 là gì?
+```
+
+dùng `####` cho tiêu đề cháu, ví dụ :
+
+```
+#### 1.1.1.Các vấn đề thường gặp phải trong IEEE754
+```
+
+Khuyến nghị nên dùng `#` tới `####` cho từng tiêu đề, vì nếu dùng nhiều hơn kích cỡ sẽ rất nhỏ gây khó khăn cho người đọc
+
+## 7.Nghệ thuật phân mảnh văn phong dài
+
+dùng nút enter để xuống dòng theo nhịp của các đoạn văn dài, ví dụ từ đoạn sau :
+
+```
+- không phải mọi số thập phân đều biểu diễn chính xác trong nhị phân, nên IEEE 754 phải làm tròn (rounding). Đây là nguyên nhân của những kết quả như `0.1 + 0.2 != 0.3` trong nhiều ngôn ngữ lập trình. Phần chương này sẽ biểu diễn và tổng quát về việc này. Vì sao lại phải rounding?: Trong hệ thống máy tính, bit nhị phân là hữu hạn nhưng biểu diễn số thực một cách chính xác lại phải vô hạn nên khi đến một ngưỡng nào đó đụng tới rào cản hữu hạn sẽ xem như làm tròn của bit nhị phân đó ví dụ 4 bit $$\large0000_{2}$$ thì số thực chỉ được biểu diễn ở phạm vi bit này, bit được cấp cho trường fraction và các trường khác lại rất ít nên độ chính xác vì thế mà giảm rất đáng kể
+```
+
+ta có thể xuống dòng thành như vậy :
+
+```
+- không phải mọi số thập phân đều biểu diễn chính xác trong nhị phân, nên IEEE 754 phải làm tròn (rounding). Đây là nguyên nhân của những kết quả như `0.1 + 0.2 != 0.3` trong nhiều ngôn ngữ lập trình. Phần chương này sẽ biểu diễn và tổng quát về việc này
+
+**Vì sao lại phải rounding?:** Trong hệ thống máy tính, bit nhị phân là hữu hạn nhưng biểu diễn số thực một cách chính xác lại phải vô hạn nên khi đến một ngưỡng nào đó đụng tới rào cản hữu hạn sẽ xem như làm tròn của bit nhị phân đó ví dụ 4 bit $$\large0000_{2}$$ thì số thực chỉ được biểu diễn ở phạm vi bit này, bit được cấp cho trường fraction và các trường khác lại rất ít nên độ chính xác vì thế mà giảm rất đáng kể
+```
+
+điều này giúp người đọc đỡ ngộp hơn
