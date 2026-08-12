@@ -118,3 +118,17 @@ ta có thể xuống dòng thành như vậy :
 ```
 
 điều này giúp người đọc đỡ ngộp hơn
+
+## 8.Nghệ thuật chèn các ký hiệu đặc biệt vào mục tiêu đề (mục lục)
+
+Ta găp vấn đề khi dùng `$$\large1_{2}$$` nó lại hiện nguyên hình cú pháp khi đóng khung như `[ ]` để index link redirect vào? , ko sao ta có cách giải quyết là ta cần push lên github hay các nền tảng gì để nó in ra và ta copy nó dán vào là xong. Chỉ có thể dùng và hoạt động với một số kiểu nhất định như dương vô cực, âm vô cực $$\large+\infty$$, $$\large-\infty$$ ...
+
+ví dụ :
+
+```
+[3.4.Round toward positive infinity $$\large+\infty$$]() // bị hiện nguyên cú pháp $$\large+\infty$$
+
+thay vào đó, copy ký hiệu luôn
+
+[3.4.Round toward positive infinity +∞]() //ổn thỏa, redirect link thoải mái
+```
