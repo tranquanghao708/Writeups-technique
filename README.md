@@ -151,3 +151,22 @@ thì kết quả sẽ ra
 </kbd>
 
 > ta thấy nó bị trùng màu
+
+Để khắc phục điều này, ta dùng thẻ `<kbd> </kbd>` để tao viền nhẹ, vừa đẹp vừa chuyên nghiệp hoặc dùng các viền đỏ ở các trình edit ảnh sẽ có thể, nhưng ko đẹp bằng `<kbd` điều này thường được dùng phổ biến hơn:
+
+```
+<kbd>
+
+<img src="image/image27.png" alt="địng lý chương 3.1"/>
+
+</kbd>
+
+
+> định lý được đề cập tới tại chương 3.1
+```
+
+<kbd>
+    
+<img src="image/image2.png" alt="khử trùng màu"/>
+
+</kbd>
