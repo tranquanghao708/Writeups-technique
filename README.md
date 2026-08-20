@@ -132,3 +132,22 @@ thay vào đó, copy ký hiệu luôn
 
 [3.4.Round toward positive infinity +∞]() //ổn thỏa, redirect link thoải mái
 ```
+
+## 9.Khuôn viền và mô tả hình ảnh
+
+Nghệ thuật này rất hữu ích, ví dụ trường hợp khi các ảnh trùng màu nền. Chẳng hạn, khi ta chụp màn hình ảnh nền của github để lấy cái thông tin quan trọng cho đọc giả đỡ phải bấm link redirect quay lại gây bất tiện, nhưng vấn đề màu nền github hay các màu nền trùng rất cao khiến 90% đọc giả phải hiểu nhầm đó là một loại văn bản ví dụ cụ thể:
+
+```
+![định lý 3.1](image/image.png)
+> định lý được đề cập tới tại chương 3.1
+```
+
+thì kết quả sẽ ra
+
+<kbd>
+    
+<img src="image/image.png" alt="trùng màu"/>
+
+</kbd>
+
+> ta thấy nó bị trùng màu
