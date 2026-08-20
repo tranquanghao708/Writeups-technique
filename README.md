@@ -170,3 +170,7 @@ thì kết quả sẽ ra
 <img src="image/image2.png" alt="khử trùng màu"/>
 
 </kbd>
+
+> khử trùng màu hòan tất
+
+ta thấy đẹp và chuyên nghiệp hơn bao giờ hết. Tiếp theo là mô tả hình ảnh, nhiều writer thường dùng `![alt text](path/to/image.png)` dùng mô tả `alt text`, hay các mô tả lặp lại từ các document hướng dẫn chèn ảnh markdown. Ừm, điều này ko phải vấn đề lớn khi ta viết và show trên github, nhưng nếu chuyển sang PDF hay các tài liệu định dạng khác thì điều này là một vấn đề lớn, vì nó hiện các mô tả đó dưới hình ảnh. Nhưng việc tốn chút time để viết các mô tả góp phần chuyên nghiệp và nghiêm túc, rõ ràng hơn. Ví dụ thay vì `<img src="image/image27.png" alt="địng lý chương 3.1"/>` thì nên `<img src="image/image27.png" alt="địng lý chương 3.1"/>` hoặc thay vì `![alt text](image.png)` thì nên `![định lý chương 9.1](image.png)`
