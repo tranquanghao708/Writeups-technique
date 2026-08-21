@@ -9,7 +9,53 @@ Viết writeup ko chỉ viết văn, nó còn là cả một nghệ thuật củ
 
 Là thứ quan trọng nhất, vấn đề là chúng thu gọn thông tin được truyền đặt vào một khung nhỏ, đọc giả hễ muốn đọc thì cứ việc mở ra và tránh làm nhiễu vấn đề trọng tâm có trong writeup. Nhưng cũng để ý nó còn có một điểm yếu chí mạng, nếu ta chủ quan ko thiết lập ranh giới rõ ràng cho nó, nó có thể gây ra nhầm lẫn rối loạn thông tin (kiểu nó như hòa là một với thông tin trọng tâm) nên việc đặt ranh giới với kỹ thuật `---` bên trên lẫn dưới và `<sub>--đã hết phần giải thích--</sub>` bên dưới cùng phần details khi kết thúc trình bày lại vô cùng quan trọng.
 
-Nó cho biết đọc giả đã nhận thức mình đã thực sự đọc xong phần này chưa, ngoài ra cần thêm `> phần detail trả lời câu hỏi trên` hay `> phần details giải thích về FPU` cho đọc giả biết mình có quan tâm chủ đề này không.
+Nó cho biết đọc giả đã nhận thức mình đã thực sự đọc xong phần này chưa, ngoài ra cần thêm `> phần detail trả lời câu hỏi trên` hay `> phần details giải thích về FPU` cho đọc giả biết mình có quan tâm chủ đề này không. Tiếp theo, ta cần tận dụng các thẻ như `<table>, <tr>, <td>` để làm đẹp, góp phần chuyên nghiệp cho phần details này. Ví dụ:
+
+```
+<details>
+	<summary>tiêu đề</summary>
+
+<table>
+<tr>
+<td>
+
+---
+
+Nội dung, ví dụ:
+ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,100) = 25` cho tử thì ta có phân số $$\large\boxed{0.25 = \frac{25}{100}}$$
+
+<sub>--đã hết phần giải thích--</sub>
+
+---
+
+</td>
+</tr>
+</table>
+</details>
+```
+
+kết quả là:
+
+<details>
+	<summary>tiêu đề</summary>
+
+<table>
+<tr>
+<td>
+
+---
+
+Nội dung, ví dụ:
+ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,100) = 25` cho tử thì ta có phân số $$\large\boxed{0.25 = \frac{25}{100}}$$
+
+<sub>--đã hết phần giải thích--</sub>
+
+---
+
+</td>
+</tr>
+</table>
+</details>
 
 ---
 
