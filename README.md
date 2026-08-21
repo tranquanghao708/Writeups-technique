@@ -13,7 +13,7 @@ Nó cho biết đọc giả đã nhận thức mình đã thực sự đọc xon
 
 ```
 <details>
-	<summary>tiêu đề</summary>
+	<summary>Cách chuyển đổi số thập phân sang phân số</summary>
 
 <table>
 <tr>
@@ -21,8 +21,11 @@ Nó cho biết đọc giả đã nhận thức mình đã thực sự đọc xon
 
 ---
 
-Nội dung, ví dụ:
-ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,100) = 25` cho tử thì ta có phân số $$\large\boxed{0.25 = \frac{25}{100}}$$
+Trước tiên về toán học căn bản, ta cần phải nhìn vào số thập phân xem, nó có bao nhiêu chữ số sau dấu phẩy để quyết định phần mẫu là số đơn vị, chục, trăm v.v.. Còn phần tử ta xem giá trị ước chung lớn nhất để suy ra. **Ví dụ** với số `0.25` đầu tiên ta cần phải hiểu, hệ cơ số của số nguyên là `10` trong tin học, tiếp theo như đã nói ta nhìn vào số thập phân ở đây là `0.25` nó có bao nhiêu số sau dấu phẩy, ta thấy nó có 2 số là `25` sau dấu phẩy vậy ta có $$\large10^{2} = 100_{10}$$ và số `10` chính là hệ cơ số của số nguyên
+
+Vậy nên ta có mẫu là `100`, tiếp theo phần `tử` của phân số để biết ta tính ước chung lớn nhất `GCD` ta cần biết phải lấy gì vào ước chung lớn nhất, đó chính là tất cả giá trị ở phần đuôi sau dấu phẩy (ko lấy phàn nguyên) và số giá trị `n(value)`, ở đây ta có tất cả giá trị ở phần đuôi sau dấu phẩy `0.25` là `25` vì giá trị này nằm sau phần đuôi, tới lượt là số giá trị `n(value)` là `100` là cái mà ta nhìn vào phần số thập phân như trên. Vậy ta có `GCD(25,100) = 25`
+
+Nên từ dữ kiện, ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,100) = 25` cho tử thì ta có phân số $$\large\boxed{0.25 = \frac{25}{100}}$$
 
 <sub>--đã hết phần giải thích--</sub>
 
@@ -37,7 +40,7 @@ ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,100) = 25` cho tử th�
 kết quả là:
 
 <details>
-	<summary>tiêu đề</summary>
+	<summary>Cách chuyển đổi số thập phân sang phân số</summary>
 
 <table>
 <tr>
@@ -45,8 +48,11 @@ kết quả là:
 
 ---
 
-Nội dung, ví dụ:
-ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,100) = 25` cho tử thì ta có phân số $$\large\boxed{0.25 = \frac{25}{100}}$$
+Trước tiên về toán học căn bản, ta cần phải nhìn vào số thập phân xem, nó có bao nhiêu chữ số sau dấu phẩy để quyết định phần mẫu là số đơn vị, chục, trăm v.v.. Còn phần tử ta xem giá trị ước chung lớn nhất để suy ra. **Ví dụ** với số `0.25` đầu tiên ta cần phải hiểu, hệ cơ số của số nguyên là `10` trong tin học, tiếp theo như đã nói ta nhìn vào số thập phân ở đây là `0.25` nó có bao nhiêu số sau dấu phẩy, ta thấy nó có 2 số là `25` sau dấu phẩy vậy ta có $$\large10^{2} = 100_{10}$$ và số `10` chính là hệ cơ số của số nguyên
+
+Vậy nên ta có mẫu là `100`, tiếp theo phần `tử` của phân số để biết ta tính ước chung lớn nhất `GCD` ta cần biết phải lấy gì vào ước chung lớn nhất, đó chính là tất cả giá trị ở phần đuôi sau dấu phẩy (ko lấy phàn nguyên) và số giá trị `n(value)`, ở đây ta có tất cả giá trị ở phần đuôi sau dấu phẩy `0.25` là `25` vì giá trị này nằm sau phần đuôi, tới lượt là số giá trị `n(value)` là `100` là cái mà ta nhìn vào phần số thập phân như trên. Vậy ta có `GCD(25,100) = 25`
+
+Nên từ dữ kiện, ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,100) = 25` cho tử thì ta có phân số $$\large\boxed{0.25 = \frac{25}{100}}$$
 
 <sub>--đã hết phần giải thích--</sub>
 
