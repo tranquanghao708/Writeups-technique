@@ -63,6 +63,9 @@ Nên từ dữ kiện, ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,
 </table>
 </details>
 
+> [!IMPORTANT]
+> Việc dùng thẻ `<table>` cho details thì tốt. Nhưng, nó chỉ nên dùng details đầu tiên. Với các details dạng mà lồng vào details khác thì ko nên dùng thẻ `<table>` vì nếu dùng nó vào các details đã được lồng vào details bên ngoài thì sẽ tạo ra hiệu ứng trượt ngang, nó ko giống xuống dòng text văn bản khi tới hạn đích mà là nó phải trượt sang. Mà, tài liệu vừa đọc vừa trượt ngang gây rất bất tiện cho đọc giả
+
 ---
 
 ## 2.Nghệ thuật đặt ranh giới cho các chủ đề
