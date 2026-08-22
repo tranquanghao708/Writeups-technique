@@ -66,6 +66,48 @@ Nên từ dữ kiện, ta có $$\large10^{2} = 100_{10}$$ cho mẫu và `GCD(25,
 > [!IMPORTANT]
 > Việc dùng thẻ `<table>` cho details thì tốt. Nhưng, nó chỉ nên dùng details đầu tiên. Với các details dạng mà lồng vào details khác thì ko nên dùng thẻ `<table>` vì nếu dùng nó vào các details đã được lồng vào details bên ngoài thì sẽ tạo ra hiệu ứng trượt ngang, nó ko giống xuống dòng text văn bản khi tới hạn đích mà là nó phải trượt sang. Mà, tài liệu vừa đọc vừa trượt ngang gây rất bất tiện cho đọc giả
 
+Ví dụ sai lầm khi dùng thẻ `<table>` cho details lồng :
+
+<details>
+	<summary>câu hỏi 1</summary>
+<table>
+<tr>
+<td>
+
+<details>
+	<summary>câu hỏi 2</summary>
+<table>
+<tr>
+<td>
+
+> Văn bản được minh họa bởi phần writeup IEEE754
+
+Ta xét $$\large1+2^{-23}$$ và ta đã biết $$\large2^{-1} = \frac{1}{2^{1}} = \frac{1}{2}$$, $$\large2^{-2} = \frac{1}{2^{2}} = \frac{1}{4}$$... Vậy $$\large2^{-23}$$ chính là một bit `1` nằm ở vị trí thứ 23 sau dấu chấm nhị phân. **Ví dụ** $$\large1+2^{-1}=1.1_{2}$$, $$\large1+2^{-2}=1.01_{2}$$, $$\large1+2^{-3}=1.001_{2}$$... (giá trị `1` đằng trước là phần nguyên) vậy tương tự với $$\large1+2^{-23}=\boxed{1.00000000000000000000001_{2}}$$
+
+**Vì sao nó lại liên quan tới 32bit?:** với 32bit (Float) biểu diễn cấu trúc nhị phân của số thực có dạng:
+
+| sign | exponent | fraction |
+|-----|----------|----------|
+|  1  |    8     |    23    |
+
+Điều quan trọng là `fraction = 23 bit` , Với một số normalized binary32, significand được hiểu là `1.fraction` nghĩa là theo chuẩn hóa thì `hiddenbit = 1` và có 23bit fraction ví dụ binary32 có `fraction = 00000000000000000000001` thì nó sẽ là $$\large\boxed{\mathrm{1}.00000000000000000000001_{2}}$$ và giá trị này đúng y hệt cái ta đang có ở biểu thức $$\large1+2^{-23}$$
+
+
+Bây giờ tới phần ghép thêm $$\large2^{-24}$$, như đã nói phần gía trị `-24` đã được cho ở chuỗi `0x1.000002p-24f` (phần `p-24`) trước đó ta ghép lại thành $$\large(1 + 2^{-23})2^{-24}$$ cái này chỉ đơn giản là làm đúng dạng normalized theo như công thức ở chương [1.Tổng quan về IEEE 754](#1tổng-quan-về-ieee-754) là $$\large(-1)^{S}\times1.m\times2^{e - b}$$ với significand = $$\large1.00000000000000000000001_{2}$$ và actual exponent = -24
+
+**điều dễ nhầm là :** `-24` không làm significand dài thêm. Nó chỉ làm là lấy significand này rồi dịch dấu chấm nhị phân 24 vị trí sang trái và phần này vừa khít với 1 hidden bit + 23 fraction bits
+</td>
+</tr>
+</table>
+</details>
+
+Ta thấy details lồng bị hiệu ứng trượt ngang gây bất tiện cho người đoc 
+
+</td>
+</tr>
+</table>
+</details>
+
 ---
 
 ## 2.Nghệ thuật đặt ranh giới cho các chủ đề
