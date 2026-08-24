@@ -298,7 +298,9 @@ Kết quả:
 <table>
 
 <td width="40%" align="right">
+<kbd>
 	<img alt="ảnh minh họa 1" src="image/image.png">
+</kbd>
 </td>
 
 <td align="top">
