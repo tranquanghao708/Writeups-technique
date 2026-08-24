@@ -277,6 +277,11 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 
 ```
 <table>
+<div align="top">
+
+đây là minh họa hình ảnh, hình ảnh này lưu một đoạn của một bài writeup IEEE754 để cải tiến khả năng viết và trình bày
+
+</div>
 <div align="left">
 	<image alt="ảnh minh họa 1" src="image/image.png">
 </div>
