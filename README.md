@@ -279,7 +279,9 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 <table>
 
 <td width="40%" align="right">
+<kbd>
 	<img alt="ảnh minh họa 1" src="image/image.png">
+</kbd>
 </td>
 
 <td align="top">
