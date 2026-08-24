@@ -277,13 +277,13 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 
 ```
 <table>
-<td align="down">
+<td align="top">
 
 đây là minh họa hình ảnh, hình ảnh này lưu một đoạn của một bài writeup IEEE754 để cải tiến khả năng viết và trình bày
 
 </td>
 
-<td width="40%" align="left">
+<td width="40%" align="right">
 	<img alt="ảnh minh họa 1" src="image/image.png">
 </td>
 </table>
@@ -292,13 +292,13 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 Kết quả:
 
 <table>
-<td align="down">
+<td align="top">
 
 đây là minh họa hình ảnh, hình ảnh này lưu một đoạn của một bài writeup IEEE754 để cải tiến khả năng viết và trình bày
 
 </td>
 
-<td width="40%" align="left">
+<td width="40%" align="right">
 	<img alt="ảnh minh họa 1" src="image/image.png">
 </td>
 </table>
