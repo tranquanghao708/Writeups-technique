@@ -277,30 +277,30 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 
 ```
 <table>
-<div align="top">
+<td align="top">
 
 đây là minh họa hình ảnh, hình ảnh này lưu một đoạn của một bài writeup IEEE754 để cải tiến khả năng viết và trình bày
 
-</div>
+</td>
 
-<div width="40%" align="left">
+<td width="40%" align="left">
 	<img alt="ảnh minh họa 1" src="image/image.png">
-</div>
+</td>
 </table>
 ```
 
 Kết quả:
 
 <table>
-<div align="top">
+<td align="top">
 
 đây là minh họa hình ảnh, hình ảnh này lưu một đoạn của một bài writeup IEEE754 để cải tiến khả năng viết và trình bày
 
-</div>
+</td>
 
-<div width="40%" align="left">
+<td width="40%" align="left">
 	<img alt="ảnh minh họa 1" src="image/image.png">
-</div>
+</td>
 </table>
 
 ## 10.Bản tính quá dài, và rút gọn nó
