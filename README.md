@@ -293,6 +293,11 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 </table>
 ```
 
+> [!IMPORTANT]
+> Trong HTML, thứ tự các thẻ `<td>` sẽ quyết định vị trí từ trái sang phải.
+> - `<td>` đầu tiên : cột bên trái
+> - `<td>` thứ hai : cột bên phải
+
 Kết quả:
 
 <table>
