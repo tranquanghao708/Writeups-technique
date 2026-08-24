@@ -328,6 +328,14 @@ Nếu như ko muốn dùng ảnh bên, trái phải nữa. Thì ta dùng ảnh t
 </td>
 ```
 
+kết quả:
+
+<td align="center">
+<kbd>
+	<img alt="anhr minh họa" src="image/image.png">
+</kbd>
+</td>
+
 ## 10.Bản tính quá dài, và rút gọn nó
 
 Nghệ thuật này giải quyêt và cải tiến phong cách trình bày bản tính ví dụ:
