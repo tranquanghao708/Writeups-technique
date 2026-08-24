@@ -318,23 +318,23 @@ Kết quả:
 
 **Lưu ý:** ảnh bên như thế này thường nhỏ hơn so với ảnh thường, chỉ phục vụ cho những ảnh minh họa, làm đẹp hay là tạo độ trực quan như (hình ảnh CPU, máy tính, điện năng v...v...) nhằm giúp người đọc đở khô khan và chán nản hơn, góp phần dễ hiểu đáng kể hay ko tùy thuộc vào bức ảnh có phù hợp với nội dung
 
-Nếu như ko muốn dùng ảnh bên, trái phải nữa. Thì ta dùng ảnh toàn cảnh, tôi thống nhất nó nằm ở giữ đòng đều về kích cỡ v.v.. tránh bị lệch hay sao đó, nói chung là sao cho mấy người OCD nhìn vào mát mắt là được. Tôi khuyến nghị dùng `<td align="center">` để làm điều này, ví dụ :
+Nếu như ko muốn dùng ảnh bên, trái phải nữa. Thì ta dùng ảnh toàn cảnh, tôi thống nhất nó nằm ở giữ đòng đều về kích cỡ v.v.. tránh bị lệch hay sao đó, nói chung là sao cho mấy người OCD nhìn vào mát mắt là được. Tôi khuyến nghị dùng `<p align="center">` để làm điều này, ví dụ :
 
 ```
-<td align="center">
+<p align="center">
 <kbd>
 	<img alt="anhr minh họa" src="image/image.png">
 </kbd>
-</td>
+</p>
 ```
 
 kết quả:
 
-<td align="center">
+<p align="center">
 <kbd>
 	<img alt="anhr minh họa" src="image/image.png">
 </kbd>
-</td>
+</p>
 
 ## 10.Bản tính quá dài, và rút gọn nó
 
