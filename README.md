@@ -299,7 +299,7 @@ Kết quả:
 </div>
 
 <div width="40%" align="left">
-	<image alt="ảnh minh họa 1" src="image/image.png">
+	<img alt="ảnh minh họa 1" src="image/image.png">
 </div>
 </table>
 
