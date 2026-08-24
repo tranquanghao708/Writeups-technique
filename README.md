@@ -277,7 +277,7 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 
 ```
 <table>
-<td align="top">
+<td align="down">
 
 đây là minh họa hình ảnh, hình ảnh này lưu một đoạn của một bài writeup IEEE754 để cải tiến khả năng viết và trình bày
 
