@@ -284,7 +284,7 @@ Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố
 </div>
 
 <div width="40%" align="left">
-	<image alt="ảnh minh họa 1" src="image/image.png">
+	<img alt="ảnh minh họa 1" src="image/image.png">
 </div>
 </table>
 ```
