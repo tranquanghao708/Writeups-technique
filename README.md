@@ -272,6 +272,25 @@ thì kết quả sẽ ra
 
 ta thấy đẹp và chuyên nghiệp hơn bao giờ hết. Tiếp theo là mô tả hình ảnh, nhiều writer thường dùng `![alt text](path/to/image.png)` dùng mô tả `alt text`, hay các mô tả lặp lại từ các document hướng dẫn chèn ảnh markdown. Ừm, điều này ko phải vấn đề lớn khi ta viết và show trên github, nhưng nếu chuyển sang PDF hay các tài liệu định dạng khác thì điều này là một vấn đề lớn, vì nó hiện các mô tả đó dưới hình ảnh. Nhưng việc tốn chút time để viết các mô tả góp phần chuyên nghiệp và nghiêm túc, rõ ràng hơn. Ví dụ thay vì `<img src="image/image27.png" alt="địng lý chương 3.1"/>` thì nên `<img src="image/image27.png" alt="địng lý chương 3.1"/>` hoặc thay vì `![alt text](image.png)` thì nên `![định lý chương 9.1](image.png)`
 
+
+Hơn nữa, đây cũng là phần góp quan trọng. Ta cần phải phân bố cục của hình ảnh theo quy ước thẩm mỹ và ưa nhìn nhất, nếu ta cấu hình ảnh bên trái thì bên phải ta cần bổ sung một lượng thông tin, ví dụ có thể mô tả, research hay là kiến thức v.v.. với cách này cần phải đi với thẻ `<table>` để có thể đưa thông tin vào. Ví dụ như sau :
+
+```
+<table>
+<div align="left">
+	<image alt="ảnh minh họa 1" src="image/image.png">
+</div>
+</table>
+```
+
+Kết quả:
+
+<table>
+<div align="left">
+	<image alt="ảnh minh họa 1" src="image/image.png">
+</div>
+</table>
+
 ## 10.Bản tính quá dài, và rút gọn nó
 
 Nghệ thuật này giải quyêt và cải tiến phong cách trình bày bản tính ví dụ:
