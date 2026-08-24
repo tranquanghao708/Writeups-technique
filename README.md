@@ -336,6 +336,8 @@ kết quả:
 </kbd>
 </p>
 
+Như thê chúng ta đã làm cho bức ảnh xen giữa, vì dùng các `[alt text](image.png)` thường sẽ tùy vào kích thước ảnh, nếu cao siêu hơn thì có thể can thiệp vào kích thước ảnh nhưng tôi khuyên nên dùng cái này vì thứ nhất, có thể tùy ý chỉnh sữa kích cỡ được, thứ hai có thể thêm các thẻ khác như `<kbd>` vào với các ảnh trùng màu với nền tảng.
+
 ## 10.Bản tính quá dài, và rút gọn nó
 
 Nghệ thuật này giải quyêt và cải tiến phong cách trình bày bản tính ví dụ:
