@@ -495,4 +495,4 @@ kết quả :
 
 > số thực nhị phân vô hạn
 
-chuyên nghiệp hơn và dễ nhìn hơn, đở phải lướt xuống.
+chuyên nghiệp hơn và dễ nhìn hơn, đở phải lướt xuống. Tiếp theo, ta thấy các writeups thực hiện các bảng tóm tắt thường sẽ có hai trường hợp phổ biến, thứ nhất chính là bảng có nhiều kích cỡ khác nhau làm méo mó và có thể hơi gây lộn xộn môt chút, thứ hai chính là ko vận dụng được khoảng trống bên cạnh bảng tóm tắt để chú thích hay note nhẹ để rõ ràng hơn, gây nên sự rời rạc và cảm giác ko được chắc chắn cho lắm. Điều cực kỳ quan trọng là các writeups thường dùng các bảng hơi đơn giản hóa, và điều này làm cho các chữ phần tử trong bảng ko đồng đều, nó bị lệch thay vì canh giữa ví dụ :
