@@ -533,4 +533,54 @@ kết quả:
 |---|---|
 | 9 | 18 |
 
-ta thấy nó bị lệch rõ ràng. Vấn đề tiếp theo, là khoảng trống bên cạnh bảng tóm tắt bị lãng phí, ừm điều này thì đôi khi cũng hạn chế dùng thôi. Về cơ bản, nó chỉ nên dùng với những thứ cần được giải thích kỹ hơn khuyến nghị hạn chế ko nên kiểu bảng nào hay hễ cứ lập bảng là dùng tới vì dùng nhiều lần nó rất lố lăng và bừa
+ta thấy nó bị lệch rõ ràng. Vấn đề tiếp theo, là khoảng trống bên cạnh bảng tóm tắt bị lãng phí, ừm điều này thì đôi khi cũng hạn chế dùng thôi. Về cơ bản, nó chỉ nên dùng với những thứ cần được giải thích kỹ hơn khuyến nghị hạn chế ko nên kiểu bảng nào hay hễ cứ lập bảng là dùng tới vì dùng nhiều lần nó rất lố lăng và bừa. Ví dụ như sau :
+
+```
+<table>
+<tr>
+<td width="45%" valign="top">
+
+| Thứ tự | Số |
+|:------:|:--:|
+| 1      | 1  |
+| 2      | 2  |
+| 3      | 3  |
+| 4      | 4  |
+
+</td>
+<td width="55%" valign="top">
+
+**Ghi chú:**
+- Đây là bảng tóm tắt thứ tự
+- Các giá trị đã được chuẩn hóa
+- Dùng để minh họa nhanh
+
+</td>
+</tr>
+```
+
+kết quả :
+
+<table>
+<tr>
+<td width="45%" valign="top">
+
+| Thứ tự | Số |
+|:------:|:--:|
+| 1      | 1  |
+| 2      | 2  |
+| 3      | 3  |
+| 4      | 4  |
+
+</td>
+<td width="55%" valign="top">
+
+**Ghi chú:**
+- Đây là bảng tóm tắt thứ tự
+- Các giá trị đã được chuẩn hóa
+- Dùng để minh họa nhanh
+
+</td>
+</tr>
+</table>
+</table>
