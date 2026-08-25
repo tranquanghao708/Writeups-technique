@@ -323,7 +323,7 @@ Nếu như ko muốn dùng ảnh bên, trái phải nữa. Thì ta dùng ảnh t
 ```
 <p align="center">
 <kbd>
-	<img alt="anhr minh họa" src="image/image.png">
+	<img alt="anhr minh họa" src="image/image.png" width="680">
 </kbd>
 </p>
 ```
@@ -332,11 +332,18 @@ kết quả:
 
 <p align="center">
 <kbd>
-	<img alt="anhr minh họa" src="image/image.png">
+	<img alt="anhr minh họa" src="image/image.png" width="680">
 </kbd>
 </p>
 
 Như thê chúng ta đã làm cho bức ảnh xen giữa, vì dùng các `[alt text](image.png)` thường sẽ tùy vào kích thước ảnh, nếu cao siêu hơn thì có thể can thiệp vào kích thước ảnh nhưng tôi khuyên nên dùng cái này vì thứ nhất, có thể tùy ý chỉnh sữa kích cỡ được, thứ hai có thể thêm các thẻ khác như `<kbd>` vào với các ảnh trùng màu với nền tảng.
+
+Việc dùng các thẻ điều chỉnh kích cỡ như `width=xxx` sẽ giúp cân bằng và phù hợp khi dùng với các trường hợp chữ hay ảnh minh họa, terminal v.v.. các chế độ kích cỡ khuyên dùng là:
+
+- `width="680"` : vừa phải, phù hợp
+- `width="980"` : đối với các ảnh có chữ
+
+hoặc trường hợp muốn ảnh to lên thì nâng tầm giá trị của width lên, còn nếu ko thì giảm xuống. Càng giảm số width thì ảnh càng nhỏ và ngược lại
 
 ## 10.Bản tính quá dài, và rút gọn nó
 
