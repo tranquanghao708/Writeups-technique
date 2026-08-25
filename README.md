@@ -533,4 +533,4 @@ kết quả:
 |---|---|
 | 9 | 18 |
 
-ta thấy nó bị lệch rõ ràng
+ta thấy nó bị lệch rõ ràng. Vấn đề tiếp theo, là khoảng trống bên cạnh bảng tóm tắt bị lãng phí, ừm điều này thì đôi khi cũng hạn chế dùng thôi. Về cơ bản, nó chỉ nên dùng với những thứ cần được giải thích kỹ hơn khuyến nghị hạn chế ko nên kiểu bảng nào hay hễ cứ lập bảng là dùng tới vì dùng nhiều lần nó rất lố lăng và bừa
