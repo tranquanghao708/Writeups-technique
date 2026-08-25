@@ -503,4 +503,34 @@ chuyên nghiệp hơn và dễ nhìn hơn, đở phải lướt xuống. Tiếp 
 </kbd>
 </p>
 
-ta thấy, cái thứ nhất giá trị trong bảng ở phần `kết quả` hay các `toward zero`, `ceil`, `floor` đều bị lệch sang phải thay vì xen giữa. Kế tiếp là kích cỡ khác nhau, ừm điều này ko quá quan trọng có thể giữ nguyên những chú ý tới các phần khoảng không bên cạch phía đó, cái mà được đánh dấu hình vuông với cái dấu chấm hỏi ý, nó ko có gì điều đó thật lãng phí. Nếu có thể  hoặc cần thiết thì nền thêm phần giải thích hay tóm tắt rõ ràng v.v.. để cho chuyên nghiệp hơn và tránh cho đọc giả cảm thấy bị rời rạc với các khoảng trống hơn
+ta thấy, cái thứ nhất giá trị trong bảng ở phần `kết quả` hay các `toward zero`, `ceil`, `floor` đều bị lệch sang phải thay vì xen giữa. Kế tiếp là kích cỡ khác nhau, ừm điều này ko quá quan trọng có thể giữ nguyên những chú ý tới các phần khoảng không bên cạch phía đó, cái mà được đánh dấu hình vuông với cái dấu chấm hỏi ý, nó ko có gì điều đó thật lãng phí. Nếu có thể  hoặc cần thiết thì nền thêm phần giải thích hay tóm tắt rõ ràng v.v.. để cho chuyên nghiệp hơn và tránh cho đọc giả cảm thấy bị rời rạc với các khoảng trống hơn. 
+
+Đầu tiên với vấn đề chữ bị lệch sang phải, trái thay vì xen giữa. Để giải quyết vấn đề này, khá đơn giản chỉ cần thêm `:---:` vào là ổn. Ví dụ:
+
+```
+| số | kết quả nhân 2 |
+|:-:|:-:|
+| 9 | 18 |
+```
+
+kết quả :
+
+| số | kết quả nhân 2 |
+|:-:|:-:|
+| 9 | 18 |
+
+còn nếu ko thêm `:--:` mà chỉ `---` thì :
+
+```
+| số | kết quả nhân 2 |
+|---|---|
+| 9 | 18 |
+```
+
+kết quả:
+
+| số | kết quả nhân 2 |
+|---|---|
+| 9 | 18 |
+
+ta thấy nó bị lệch rõ ràng
