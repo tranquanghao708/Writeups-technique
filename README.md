@@ -502,3 +502,5 @@ chuyên nghiệp hơn và dễ nhìn hơn, đở phải lướt xuống. Tiếp 
 	<img alt="bảng tóm tắt" src="image/image3.png" width="680">
 </kbd>
 </p>
+
+ta thấy, cái thứ nhất giá trị trong bảng ở phần `kết quả` hay các `toward zero`, `ceil`, `floor` đều bị lệch sang phải thay vì xen giữa. Kế tiếp là kích cỡ khác nhau, ừm điều này ko quá quan trọng có thể giữ nguyên những chú ý tới các phần khoảng không bên cạch phía đó, cái mà được đánh dấu hình vuông với cái dấu chấm hỏi ý, nó ko có gì điều đó thật lãng phí. Nếu có thể  hoặc cần thiết thì nền thêm phần giải thích hay tóm tắt rõ ràng v.v.. để cho chuyên nghiệp hơn và tránh cho đọc giả cảm thấy bị rời rạc với các khoảng trống hơn
